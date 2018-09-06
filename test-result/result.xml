@@ -1,0 +1,16 @@
+<testsuites name="Mocha Tests">
+  <testsuite name="Customer" tests="1" errors="0" failures="1" skipped="0" timestamp="2018-09-06T02:39:12" time="0.543">
+    <testcase classname="Customer" name="Should return a 200 response for the register of customer" time="0.539">
+      <failure message="expected 200 &quot;OK&quot;, got 404 &quot;Not Found&quot;">    at Test._assertStatus (node_modules/supertest/lib/test.js:268:12)
+    at Test._assertFunction (node_modules/supertest/lib/test.js:283:11)
+    at Test.assert (node_modules/supertest/lib/test.js:173:18)
+    at localAssert (node_modules/supertest/lib/test.js:131:12)
+    at /Users/apereira/Workspaces/learning-api-testing/node_modules/supertest/lib/test.js:128:5
+    at Test.Request.callback (node_modules/superagent/lib/node/index.js:728:3)
+    at IncomingMessage.parser (node_modules/superagent/lib/node/index.js:916:18)
+    at endReadableNT (_stream_readable.js:1055:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
